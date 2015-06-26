@@ -1,0 +1,78 @@
+.scene, .layer{
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.indexLayer{
+  position: relative;
+  padding: rem(73) 0;
+  height: inherit;
+}
+.arrow-list{
+
+  height: inherit;
+   img{
+     position: absolute;
+   }
+
+  .l1_img{
+    left: -45px;
+    top:0;
+  }
+
+  .l2_img{
+    left: -71px;
+    top: 16.5px;
+  }
+  .l3_img{
+
+    top : rem(266);
+    left: -45px;
+  }
+
+  .l4_img{
+    top : rem(401);
+    left: -57px;
+  }
+
+  .l5_img{
+    top : 238.5px;
+    left: -45px;
+  }
+
+  .l6_img{
+    bottom : 61px;
+    left: -10px;
+  }
+
+
+
+  .r1_img{
+    top : rem(193);
+    right: -107px;
+  }
+
+  .r2_img{
+    top : 156px;
+    right: -90px;
+  }
+
+  .r3_img{
+    bottom: 149px;
+    right: -149px;
+  }
+
+  .r4_img{
+    bottom: 120px;
+    right: -115px;
+  }
+  .r5_img{
+    bottom: 128px;
+    right: -58px;
+  }
+
+}
