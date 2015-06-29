@@ -1,6 +1,93 @@
+//背景
 .bg-default{
   background-image: url("../resources/bg-default.jpg");
-  width: 100%;
   height: inherit;
   background-size: cover;
 }
+
+//菊花
+.chrysanthemum-img{
+  background-image: url("../resources/chrysanthemum.png");
+  background-size: rem(228) rem(198);
+
+  width: rem(228);
+  height: rem(198);
+}
+
+//菊花正面
+.chrysanthemum-front-img{
+  background-image: url("../resources/chrysanthemum-front.png");
+  background-size: rem(162) rem(163);
+
+  width: rem(162);
+  height: rem(163);
+}
+
+//立方体
+.rect-img{
+  background-image: url("../resources/tran-body.png");
+  background-size: rem(171) rem(155);
+
+  width: rem(171);
+  height: rem(155);
+}
+
+//字体
+.font-base{
+  background-image: url("../resources/font-base.png");
+  background-size: rem(423) rem(476);
+
+  width: rem(423);
+  height: rem(476);
+}
+
+
+//字体01
+.font-base-01{
+    background-image: url("../resources/font-base-01.png");
+    background-size: rem(384) rem(250);
+
+    width: rem(384);
+    height: rem(250);
+}
+
+//字体02
+.font-base-02{
+  background-image: url("../resources/font-base-02.png");
+  background-size: rem(404) rem(302);
+
+  width:  rem(404);
+  height: rem(302);
+}
+
+
+//指纹
+.point-wen{
+  background-image: url("../resources/font-base-01.png");
+  background-size: rem(117) rem(164);
+
+  width:  rem(117);
+  height: rem(164);
+}
+
+//红色圈
+.circle-red-img{
+  background-image: url("../resources/circle-red.png");
+  background-size: rem(94) rem(98);
+
+  width:  rem(94);
+  height: rem(98);
+}
+
+//蓝色圈
+.circle-blue-img{
+
+  background-image: url("../resources/circle-blue.png");
+  background-size: rem(124) rem(124);
+
+  width:  rem(124);
+  height: rem(124);
+}
+
+
+

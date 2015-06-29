@@ -9,9 +9,62 @@
  */
 .bg-default {
   background-image: url("../resources/bg-default.jpg");
-  width: 100%;
   height: inherit;
   background-size: cover; }
+
+.chrysanthemum-img {
+  background-image: url("../resources/chrysanthemum.png");
+  background-size: 114px 99px;
+  width: 114px;
+  height: 99px; }
+
+.chrysanthemum-front-img {
+  background-image: url("../resources/chrysanthemum-front.png");
+  background-size: 81px 81.5px;
+  width: 81px;
+  height: 81.5px; }
+
+.rect-img {
+  background-image: url("../resources/tran-body.png");
+  background-size: 85.5px 77.5px;
+  width: 85.5px;
+  height: 77.5px; }
+
+.font-base {
+  background-image: url("../resources/font-base.png");
+  background-size: 211.5px 238px;
+  width: 211.5px;
+  height: 238px; }
+
+.font-base-01 {
+  background-image: url("../resources/font-base-01.png");
+  background-size: 192px 125px;
+  width: 192px;
+  height: 125px; }
+
+.font-base-02 {
+  background-image: url("../resources/font-base-02.png");
+  background-size: 202px 151px;
+  width: 202px;
+  height: 151px; }
+
+.point-wen {
+  background-image: url("../resources/font-base-01.png");
+  background-size: 58.5px 82px;
+  width: 58.5px;
+  height: 82px; }
+
+.circle-red-img {
+  background-image: url("../resources/circle-red.png");
+  background-size: 47px 49px;
+  width: 47px;
+  height: 49px; }
+
+.circle-blue-img {
+  background-image: url("../resources/circle-blue.png");
+  background-size: 62px 62px;
+  width: 62px;
+  height: 62px; }
 
 html, body {
   width: 100%;
@@ -23,6 +76,11 @@ html, body {
   height: 100%;
   overflow: hidden; }
 
+h6, h5, h4, h3, h2, h1 {
+  margin: 0;
+  top: 0;
+  font-weight: normal; }
+
 .scene, .layer {
   display: block;
   height: 100%;
@@ -32,7 +90,6 @@ html, body {
 
 .indexLayer {
   position: relative;
-  padding: 36.5px 0;
   height: inherit; }
 
 .arrow-list {
@@ -40,37 +97,75 @@ html, body {
   .arrow-list img {
     position: absolute; }
   .arrow-list .l1_img {
-    left: -45px;
+    left: -70px;
     top: 0; }
   .arrow-list .l2_img {
-    left: -71px;
+    left: -96px;
     top: 16.5px; }
   .arrow-list .l3_img {
     top: 133px;
-    left: -45px; }
+    left: -67px; }
   .arrow-list .l4_img {
     top: 200.5px;
-    left: -57px; }
+    left: -72px; }
   .arrow-list .l5_img {
     top: 238.5px;
-    left: -45px; }
+    left: -71px; }
   .arrow-list .l6_img {
-    bottom: 61px;
-    left: -10px; }
+    bottom: 0px;
+    left: -30px; }
   .arrow-list .r1_img {
     top: 96.5px;
-    right: -107px; }
+    right: -120px; }
   .arrow-list .r2_img {
     top: 156px;
-    right: -90px; }
+    right: -106px; }
   .arrow-list .r3_img {
-    bottom: 149px;
-    right: -149px; }
+    bottom: 64px;
+    right: -139px; }
   .arrow-list .r4_img {
-    bottom: 120px;
+    bottom: 53px;
     right: -115px; }
   .arrow-list .r5_img {
-    bottom: 128px;
-    right: -58px; }
+    bottom: 38px;
+    right: -30px; }
+
+.font-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 999;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+.chrysanthemum-front {
+  position: absolute;
+  top: 7%;
+  left: -56px; }
+
+.chrysanthemum {
+  position: absolute;
+  bottom: 20%;
+  right: -58px; }
+
+.circle-layer {
+  position: absolute;
+  bottom: 18%;
+  left: 0; }
+
+.circle-blue {
+  position: relative; }
+
+.circle-red {
+  position: absolute;
+  top: 7px;
+  left: 9px; }
+
+.rect-img {
+  position: absolute;
+  right: -40px;
+  top: 20px; }
 
 /*# sourceMappingURL=all.css.map */
