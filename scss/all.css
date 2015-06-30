@@ -54,17 +54,62 @@
   width: 58.5px;
   height: 82px; }
 
-.circle-red-img {
-  background-image: url("../resources/circle-red.png");
-  background-size: 47px 49px;
-  width: 47px;
-  height: 49px; }
+.main-img {
+  background-image: url("../resources/main.png");
+  background-size: 989.5px 1135.5px; }
 
-.circle-blue-img {
-  background-image: url("../resources/circle-blue.png");
-  background-size: 62px 62px;
-  width: 62px;
-  height: 62px; }
+.circle-img {
+  background-image: url("../resources/circle.png");
+  background-size: 1000px 775px; }
+
+.wrap-ring-img {
+  background-position: -627.5px -172px;
+  width: 302px;
+  height: 302px; }
+
+.wrap-ring-opacity-img {
+  background-position: -627.5px -474px;
+  width: 302px;
+  height: 301px; }
+
+.middle-ring-white-img {
+  background-position: -23.5px -474px;
+  width: 302px;
+  height: 301px; }
+
+.middle-ring-red-img {
+  background-position: -325.5px -474px;
+  width: 302px;
+  height: 301px; }
+
+.quantong-font {
+  background-position: 0 0;
+  background-size: 100% 100%;
+  width: 200px;
+  height: auto; }
+
+.baishi-font {
+  background-position: 0 -137px;
+  width: 224.5px;
+  height: 68px; }
+
+.hudong-font {
+  background-position: 0 -205px;
+  width: 253.5px;
+  height: 57px; }
+
+.xinshou-font {
+  background-position: 0 -205px;
+  width: 253.5px;
+  height: 57px; }
+
+.iphone-puzzle-img {
+  background-position: 0 -578.5px;
+  width: 235px;
+  height: 340.5px; }
+
+.puzzle-img {
+  background-position: 0 -930px; }
 
 html, body {
   width: 100%;
@@ -80,6 +125,12 @@ h6, h5, h4, h3, h2, h1 {
   margin: 0;
   top: 0;
   font-weight: normal; }
+
+.hide {
+  display: none; }
+
+.block {
+  display: block; }
 
 .scene, .layer {
   display: block;
@@ -167,5 +218,50 @@ h6, h5, h4, h3, h2, h1 {
   position: absolute;
   right: -40px;
   top: 20px; }
+
+.secondLayer .big-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 310px;
+  height: 310px;
+  margin-left: -155px;
+  margin-top: -155px; }
+.secondLayer .wrap-ring {
+  -webkit-animation: spin-inverse 5s linear 0s infinite both;
+  -ms-animation: spin-inverse 5s linear 0s infinite both;
+  -moz-animation: spin-inverse 5s linear 0s infinite both;
+  -o-animation: spin-inverse 5s linear 0s infinite both;
+  animation: spin-inverse 5s linear 0s infinite both;
+  position: absolute;
+  bottom: 1px;
+  left: 0; }
+.secondLayer .wrap-ring-opacity {
+  -webkit-animation: spin 1s linear 0s infinite both;
+  -ms-animation: spin 1s linear 0s infinite both;
+  -moz-animation: spin 1s linear 0s infinite both;
+  -o-animation: spin 1s linear 0s infinite both;
+  animation: spin 1s linear 0s infinite both;
+  position: absolute;
+  bottom: 5px;
+  left: 0px; }
+.secondLayer .middle-ring-white {
+  -webkit-animation: spin 1s linear 0s infinite both;
+  -ms-animation: spin 1s linear 0s infinite both;
+  -moz-animation: spin 1s linear 0s infinite both;
+  -o-animation: spin 1s linear 0s infinite both;
+  animation: spin 1s linear 0s infinite both;
+  position: absolute;
+  left: 0px;
+  bottom: 7px; }
+.secondLayer .middle-ring-red {
+  -webkit-animation: spin-inverse 4s linear 0s infinite both;
+  -ms-animation: spin-inverse 4s linear 0s infinite both;
+  -moz-animation: spin-inverse 4s linear 0s infinite both;
+  -o-animation: spin-inverse 4s linear 0s infinite both;
+  animation: spin-inverse 4s linear 0s infinite both;
+  position: absolute;
+  left: 1px;
+  bottom: 7px; }
 
 /*# sourceMappingURL=all.css.map */

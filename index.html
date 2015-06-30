@@ -27,11 +27,15 @@
     <link rel="stylesheet" href="lib/base/module.css"/>
     <link rel="stylesheet" href="scss/all.css"/>
 
+    <!-- ani -->
+    <link rel="stylesheet" href="lib/base/cartoon.min.css" />
+
     <!-- third -->
     <script type="text/javascript" src="lib/pre/loader.min.js"></script>
 
     <!-- biz -->
     <script type="text/javascript" src="js/index.js"></script>
+
 
 </head>
 
@@ -41,7 +45,7 @@
 <div id="container" class="container  bg-default" >
 
     <!-- 第一个图片 -->
-    <div class="indexLayer">
+    <div  class="indexLayer hide">
         <ul id="arrow-list" class="arrow-list"  data-friction-x="0.1"
             data-friction-y="0.1"
             data-scalar-x="25"
@@ -131,11 +135,31 @@
 
     </div>
 
-
     <!-- 第二个 -->
-    <div class="secondLayer">
+    <div class="secondLayer ">
 
-        
+        <!-- 大圆环 -->
+        <div class="big-ring ib">
+
+            <div class="circle-img wrap-ring wrap-ring-img">
+
+            </div>
+
+            <div class="circle-img wrap-ring-opacity wrap-ring-opacity-img">
+
+            </div>
+
+            <div class="circle-img middle-ring-white middle-ring-white-img"></div>
+
+            <div class="circle-img middle-ring-red middle-ring-red-img"></div>
+
+            <!--文字 -->
+            <div>
+
+                <h5 class="ib quantong-font main-img quantong"></h5>
+            </div>
+        </div>
+
 
     </div>
 
@@ -155,9 +179,9 @@
 
 
     //simple
-    var scene = document.getElementById('arrow-list');
-    var parallax = new Parallax(scene,{
-
-    });
+//    var scene = document.getElementById('arrow-list');
+//    var parallax = new Parallax(scene,{
+//
+//    });
 
 </script>
