@@ -84,9 +84,8 @@
 
 .quantong-font {
   background-position: 0 0;
-  background-size: 100% 100%;
-  width: 200px;
-  height: auto; }
+  width: 253.5px;
+  height: 137px; }
 
 .baishi-font {
   background-position: 0 -137px;
@@ -263,5 +262,8 @@ h6, h5, h4, h3, h2, h1 {
   position: absolute;
   left: 1px;
   bottom: 7px; }
+.secondLayer .quantong {
+  margin-left: 33px;
+  margin-top: 85px; }
 
 /*# sourceMappingURL=all.css.map */
