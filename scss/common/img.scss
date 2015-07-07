@@ -5,6 +5,7 @@
   background-size: cover;
 }
 
+
 //菊花
 .chrysanthemum-img{
   background-image: url("../resources/chrysanthemum.png");
@@ -72,6 +73,7 @@
 
 
 
+
 //所有图片
 .main-img{
   background-image: url("../resources/main.png");
@@ -87,17 +89,15 @@
 
 //外层圆环
 .wrap-ring-img{
-
   background-position:  rem(-1255) rem(-344);
   width: rem(604);
   height: rem(604);
-
 }
 
 //外层透明圆环
 .wrap-ring-opacity-img{
   background-position: rem(-1255) rem(-948);
-  width: rem(604);
+  width: rem(602);
   height: rem(602);
 }
 
@@ -105,7 +105,7 @@
 //白色线环
 .middle-ring-white-img{
   background-position: rem(-47) rem(-948);
-  width: rem(604);
+  width: rem(602);
   height: rem(602);
 }
 
@@ -114,18 +114,36 @@
 //红色img
 .middle-ring-red-img{
   background-position: rem(-651) rem(-948);
-  width: rem(604);
+  width: rem(602);
   height: rem(602);
 }
+
+
+.inner-ring-img{
+  background-position: rem(-651) rem(-344);
+  width : rem(604);
+  height : rem(604);
+}
+
+
+.meteor-img{
+  background-position: rem(-600) rem(-1157);
+  width: rem(289);
+  height: rem(173);
+
+
+}
+
 
 
 
 //全通文字
 .quantong-font{
   background-position:  0 0;
-  width: rem(507);
+  width: rem(470);
   height: rem(274);
 }
+
 
 //拜师学艺
 .baishi-font{
@@ -144,9 +162,10 @@
 
 //新手
 .xinshou-font{
-  background-position: 0  rem(-410);
-  width: rem(507);
-  height: rem(114);
+  background-position: 0  rem(-524);
+  width: rem(449);
+  height: rem(190);
+
 }
 
 //手机
@@ -156,6 +175,17 @@
   height: rem(681);
 }
 
+//pintu
 .puzzle-img{
   background-position: 0  rem(-1860);
+  width: rem(275);
+  height: rem(244);
+}
+
+
+//红点
+.circle-point-img{
+    background-position:  0 rem(-2209);
+    width: rem(59);
+    height: rem(59);
 }

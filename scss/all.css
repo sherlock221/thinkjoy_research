@@ -69,22 +69,32 @@
 
 .wrap-ring-opacity-img {
   background-position: -627.5px -474px;
-  width: 302px;
+  width: 301px;
   height: 301px; }
 
 .middle-ring-white-img {
   background-position: -23.5px -474px;
-  width: 302px;
+  width: 301px;
   height: 301px; }
 
 .middle-ring-red-img {
   background-position: -325.5px -474px;
-  width: 302px;
+  width: 301px;
   height: 301px; }
+
+.inner-ring-img {
+  background-position: -325.5px -172px;
+  width: 302px;
+  height: 302px; }
+
+.meteor-img {
+  background-position: -300px -578.5px;
+  width: 144.5px;
+  height: 86.5px; }
 
 .quantong-font {
   background-position: 0 0;
-  width: 253.5px;
+  width: 235px;
   height: 137px; }
 
 .baishi-font {
@@ -98,9 +108,9 @@
   height: 57px; }
 
 .xinshou-font {
-  background-position: 0 -205px;
-  width: 253.5px;
-  height: 57px; }
+  background-position: 0 -262px;
+  width: 224.5px;
+  height: 95px; }
 
 .iphone-puzzle-img {
   background-position: 0 -578.5px;
@@ -108,7 +118,14 @@
   height: 340.5px; }
 
 .puzzle-img {
-  background-position: 0 -930px; }
+  background-position: 0 -930px;
+  width: 137.5px;
+  height: 122px; }
+
+.circle-point-img {
+  background-position: 0 -1104.5px;
+  width: 29.5px;
+  height: 29.5px; }
 
 html, body {
   width: 100%;
@@ -245,11 +262,11 @@ h6, h5, h4, h3, h2, h1 {
   bottom: 5px;
   left: 0px; }
 .secondLayer .middle-ring-white {
-  -webkit-animation: spin 1s linear 0s infinite both;
-  -ms-animation: spin 1s linear 0s infinite both;
-  -moz-animation: spin 1s linear 0s infinite both;
-  -o-animation: spin 1s linear 0s infinite both;
-  animation: spin 1s linear 0s infinite both;
+  -webkit-animation: spin 2s linear 0s infinite both;
+  -ms-animation: spin 2s linear 0s infinite both;
+  -moz-animation: spin 2s linear 0s infinite both;
+  -o-animation: spin 2s linear 0s infinite both;
+  animation: spin 2s linear 0s infinite both;
   position: absolute;
   left: 0px;
   bottom: 7px; }
@@ -262,8 +279,109 @@ h6, h5, h4, h3, h2, h1 {
   position: absolute;
   left: 1px;
   bottom: 7px; }
+.secondLayer .inner-ring {
+  -webkit-animation: spin-inverse 10s linear 0s infinite both;
+  -ms-animation: spin-inverse 10s linear 0s infinite both;
+  -moz-animation: spin-inverse 10s linear 0s infinite both;
+  -o-animation: spin-inverse 10s linear 0s infinite both;
+  animation: spin-inverse 10s linear 0s infinite both;
+  position: absolute;
+  left: 1px;
+  bottom: 7px; }
 .secondLayer .quantong {
-  margin-left: 33px;
-  margin-top: 85px; }
+  left: 43px;
+  top: 83px;
+  position: absolute; }
+.secondLayer .meteor-01 {
+  position: absolute;
+  top: 5%; }
+.secondLayer .meteor-02 {
+  position: absolute;
+  bottom: -5%; }
+
+.thirdLayer .xinshou {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-left: -112.5px; }
+.thirdLayer .ip-puzzle {
+  position: absolute;
+  bottom: 0px;
+  left: 0; }
+.thirdLayer .puzzle {
+  position: absolute;
+  top: 0;
+  right: -94px;
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg); }
+.thirdLayer .puzzle-layer {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -117.5px;
+  width: 235px;
+  height: 340.5px; }
+.thirdLayer .point-01 {
+  position: absolute;
+  right: 20px;
+  top: 19px; }
+
+@-webkit-keyframes metro {
+  0% {
+    -webkit-transform: translate3d(-130px, 7px, 0);
+    transform: translate3d(-130px, 7px, 0);
+    -moz-transform: translate3d(-130px, 7px, 0);
+    -ms-transform: translate3d(-130px, 7px, 0); }
+  100% {
+    -webkit-transform: translate3d(130px, -70px, 0);
+    transform: translate3d(130px, -70px, 0);
+    -moz-transform: translate3d(130px, -70px, 0);
+    -ms-transform: translate3d(130px, -70px, 0); } }
+@-moz-keyframes metro {
+  0% {
+    -webkit-transform: translate3d(-130px, 7px, 0);
+    transform: translate3d(-130px, 7px, 0);
+    -moz-transform: translate3d(-130px, 7px, 0);
+    -ms-transform: translate3d(-130px, 7px, 0); }
+  100% {
+    -webkit-transform: translate3d(130px, -70px, 0);
+    transform: translate3d(130px, -70px, 0);
+    -moz-transform: translate3d(130px, -70px, 0);
+    -ms-transform: translate3d(130px, -70px, 0); } }
+@-o-keyframes metro {
+  0% {
+    -webkit-transform: translate3d(-130px, 7px, 0);
+    transform: translate3d(-130px, 7px, 0);
+    -moz-transform: translate3d(-130px, 7px, 0);
+    -ms-transform: translate3d(-130px, 7px, 0); }
+  100% {
+    -webkit-transform: translate3d(130px, -70px, 0);
+    transform: translate3d(130px, -70px, 0);
+    -moz-transform: translate3d(130px, -70px, 0);
+    -ms-transform: translate3d(130px, -70px, 0); } }
+@-ms-keyframes metro {
+  0% {
+    -webkit-transform: translate3d(-130px, 7px, 0);
+    transform: translate3d(-130px, 7px, 0);
+    -moz-transform: translate3d(-130px, 7px, 0);
+    -ms-transform: translate3d(-130px, 7px, 0); }
+  100% {
+    -webkit-transform: translate3d(130px, -70px, 0);
+    transform: translate3d(130px, -70px, 0);
+    -moz-transform: translate3d(130px, -70px, 0);
+    -ms-transform: translate3d(130px, -70px, 0); } }
+@keyframes metro {
+  0% {
+    -webkit-transform: translate3d(-130px, 7px, 0);
+    transform: translate3d(-130px, 7px, 0);
+    -moz-transform: translate3d(-130px, 7px, 0);
+    -ms-transform: translate3d(-130px, 7px, 0); }
+  100% {
+    -webkit-transform: translate3d(130px, -70px, 0);
+    transform: translate3d(130px, -70px, 0);
+    -moz-transform: translate3d(130px, -70px, 0);
+    -ms-transform: translate3d(130px, -70px, 0); } }
 
 /*# sourceMappingURL=all.css.map */

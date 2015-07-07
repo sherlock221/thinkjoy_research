@@ -1,0 +1,18 @@
+.meteor-01{
+
+  //@include animation(metro 3s ease 0s 1 both);
+
+}
+
+@include keyframes(metro){
+
+  0%{
+    //@include transform(translate3d(0,0,0));
+    @include transform(translate3d(-130px ,7px , 0));
+  }
+
+  100%{
+    @include transform(translate3d(130px ,-70px , 0));
+  }
+
+}
