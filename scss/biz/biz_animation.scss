@@ -1,18 +1,24 @@
 .meteor-01{
 
-  //@include animation(metro 3s ease 0s 1 both);
+  @include animation(metro 2s ease-in 0s infinite both);
 
 }
 
-@include keyframes(metro){
 
+
+@include keyframes(metro){
   0%{
-    //@include transform(translate3d(0,0,0));
-    @include transform(translate3d(-130px ,7px , 0));
+    @include transform(translate3d(-144px,20px,0));
+    //@include transform(translate3d(-72.25px, 90.25px , 0));
   }
 
   100%{
-    @include transform(translate3d(130px ,-70px , 0));
+    @include transform(translate3d(33.5px,-86px,0));
+    //@include transform(translate3d(146.75px ,-43.25px , 0));
   }
 
 }
+
+
+
+
