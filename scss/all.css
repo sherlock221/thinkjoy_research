@@ -130,7 +130,8 @@
 html, body {
   width: 100%;
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  color: #89b6cf; }
 
 .container {
   width: 100%;
@@ -148,6 +149,11 @@ h6, h5, h4, h3, h2, h1 {
 .block {
   display: block; }
 
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 .btn {
   margin: 0;
   border: 0;
@@ -156,6 +162,9 @@ h6, h5, h4, h3, h2, h1 {
   text-align: center;
   background-color: transparent;
   font-size: 14px; }
+
+a {
+  outline: none; }
 
 .scene, .layer {
   display: block;
@@ -368,6 +377,68 @@ h6, h5, h4, h3, h2, h1 {
   position: absolute;
   right: 0;
   top: 0; }
+.sevenLayer .team-info {
+  background-position: -259.5px -371px;
+  width: 204.5px;
+  height: 25px;
+  position: fixed;
+  right: 0;
+  top: 0; }
+
+.answerLayer {
+  padding-top: 17px;
+  padding-left: 21px;
+  padding-right: 21px; }
+  .answerLayer .answer-num {
+    background: #ff5f32;
+    color: #000;
+    font-size: 14px;
+    padding: 7px 21px;
+    margin-top: 28px;
+    margin-bottom: 24px; }
+  .answerLayer .answer-title {
+    border: 1px dashed;
+    padding: 15px 17.5px;
+    line-height: 20px; }
+  @media screen and (min-height: 500px) {
+    .answerLayer .answer-title {
+      height: 140px; } }
+  .answerLayer .select-active {
+    width: 65px;
+    height: 38.5px;
+    background-position: -259.5px -395.5px;
+    position: absolute;
+    left: 14px;
+    top: -13px;
+    display: none; }
+  .answerLayer .answer-select {
+    clear: both;
+    overflow: hidden;
+    margin-top: 15px; }
+    .answerLayer .answer-select li {
+      width: 50%;
+      float: left;
+      position: relative;
+      margin: 15px 0; }
+      .answerLayer .answer-select li.active .select-active {
+        display: inline-block; }
+      .answerLayer .answer-select li:nth-child(even) a {
+        padding-left: 5px; }
+      .answerLayer .answer-select li a {
+        color: inherit;
+        display: block;
+        font-size: 15px; }
+  .answerLayer .answer-bottom .bg-bottom {
+    background-position: -667.5px -205px;
+    width: 322.5px;
+    height: 161px;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%); }
 
 .meteor-01 {
   -webkit-animation: metro 2s ease-in 0s infinite both;
