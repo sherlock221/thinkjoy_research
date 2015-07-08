@@ -15,35 +15,35 @@
   }
 
   .wrap-ring{
-    @include animation(spin-inverse 5s linear  0s infinite both);
+    //@include animation(spin-inverse 5s linear  0s infinite both);
     position: absolute;
     bottom: 1px;
     left: 0;
   }
 
   .wrap-ring-opacity{
-    @include animation(spin 1s linear  0s infinite both);
+    //@include animation(spin 1s linear  0s infinite both);
     position: absolute;
     bottom: 5px;
     left: 0px;
   }
 
   .middle-ring-white{
-    @include animation(spin 2s linear  0s infinite both);
+    //@include animation(spin 2s linear  0s infinite both);
     position: absolute;
     left: 0px;
     bottom: 7px;
   }
 
   .middle-ring-red{
-    @include animation(spin-inverse 4s linear  0s infinite both);
+    //@include animation(spin-inverse 4s linear  0s infinite both);
     position: absolute;
     left: 1px;
     bottom: 7px;
   }
 
   .inner-ring{
-    @include animation(spin-inverse 10s linear  0s infinite both);
+    //@include animation(spin-inverse 10s linear  0s infinite both);
     position: absolute;
     left: 1px;
     bottom: 7px;
