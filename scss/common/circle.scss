@@ -1,0 +1,42 @@
+//圆环图片
+.circle-img{
+  background-image: url("../resources/circle.png");
+  background-size: rem(2000) rem(1550);
+}
+
+
+//外层圆环
+.wrap-ring-img{
+  background-position:  rem(-1255) rem(-344);
+  width: rem(604);
+  height: rem(604);
+}
+
+//外层透明圆环
+.wrap-ring-opacity-img{
+  background-position: rem(-1255) rem(-948);
+  width: rem(602);
+  height: rem(602);
+}
+
+
+//白色线环
+.middle-ring-white-img{
+  background-position: rem(-47) rem(-948);
+  width: rem(602);
+  height: rem(602);
+}
+
+//红色img
+.middle-ring-red-img{
+  background-position: rem(-651) rem(-948);
+  width: rem(602);
+  height: rem(602);
+}
+
+
+.inner-ring-img{
+  background-position: rem(-651) rem(-344);
+  width : rem(604);
+  height : rem(604);
+}

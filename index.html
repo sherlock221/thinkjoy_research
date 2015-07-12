@@ -18,14 +18,13 @@
     <title>习悦研究院</title>
 
     <!-- 防止缓存 -->
-    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
-    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
-    <meta HTTP-EQUIV="Expires" CONTENT="0">
-
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
     <!-- skin -->
     <link rel="stylesheet" href="lib/base/module.css"/>
-    <link rel="stylesheet" href="scss/all.css"/>
+    <link rel="stylesheet" href="scss/all.css?v=11"/>
 
     <!-- ani -->
     <link rel="stylesheet" href="lib/base/cartoon.min.css" />
@@ -191,9 +190,12 @@
 
 
     <!-- 拜师学艺 -->
-    <div class="fourLayer hide">
+    <div class="fourLayer  hide">
+
 
         <h5 class="main-img baishi-font  ib"></h5>
+
+        <!--<div class="ib all-img xy189"></div>-->
 
         <div>
 
@@ -204,50 +206,131 @@
 
    <!--武功秘籍-->
     <div class="fiveLayer hide">
+        <section class="pt20">
 
-        <h5 class="main-img ib wugong-font"></h5>
+            <div class="text-center">
+                <h5 class="font-base-img ib font-wugong"></h5>
+            </div>
+
+            <div class="tr-center">
+
+
+                <div class="rel sp-content">
+
+                    <div class="ib main-img wg-head-img"></div>
+                    <div class="ib main-img wg-house-img"></div>
+                    <div class="ib main-img wg-red-img"></div>
+                    <div class="ib main-img wg-red-title-img"></div>
+                    <div class="ib main-img wg-cmp-img"></div>
+                    <div class="ib main-img wg-circle-img"></div>
+                    <div class="ib main-img wg-play-img"></div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+
 
     </div>
 
     <!--第6屏-->
-    <div class="sixLayer hide">
+    <div class="sixLayer  ">
+        <!-- 流星 -->
+        <i class="ib metro-img metro-bottom meteor-ani-bottom main-img"></i>
+        <i class="ib metro-img metro-bottom meteor-ani-center main-img"></i>
+
+        <span class="ib team-info-img team-info font-base-img"></span>
+
+        <div class="text-center head-layer">
+            <section class="ib">
+
+            <div class="mb35">
+                <span class="ib ml10">
+                    <i class="ib head-01 head-img"></i>
+                </span>
+                <div class="ib pl30">
+                    <i class="ib font-base-img font-jiagou "></i>
+                </div>
+
+            </div>
+            <div class="mb35">
+                <div class="ib ml30 ">
+                    <i class="ib font-base-img font-data "></i>
+                </div>
+                  <span class="ib ml30">
+                    <i class="ib head-02 head-img"></i>
+                </span>
+
+            </div>
+            <div class="mb35">
+                <span class="ib ml10">
+                    <i class="ib head-03 head-img"></i>
+                </span>
+                <div class="ib pl30">
+                    <i class="ib font-base-img font-yanfa "></i>
+                </div>
+
+            </div>
+
+            <div class="mb35">
+                <div class="ib ml10 ">
+                    <i class="ib font-base-img font-you "></i>
+                </div>
+                  <span class="ib ml20">
+                    <i class="ib head-04 head-img"></i>
+                </span>
+
+            </div>
+
+        </section>
+        </div>
 
     </div>
 
     <!-- 团队介绍-->
     <div class="sevenLayer hide ">
 
-        <span class="ib team-info main-img"></span>
+
+        <span class="ib team-info-img team-info font-base-img"></span>
+
+
 
         <h5 class="title-style">
             为什么要加入?
         </h5>
 
-        <div class="text-center">
-            <div class="ib">
-                <h4 class="main-img f7 f7-01"></h4>
-                <h4 class="main-img f7 f7-02"></h4>
-                <h4 class="main-img f7 f7-03"></h4>
-                <h4 class="main-img f7 f7-04"></h4>
-                <h4 class="main-img f7 f7-05"></h4>
-                <h4 class="main-img f7 f7-06"></h4>
-                <h4 class="main-img f7 f7-07"></h4>
+            <div class="tr-center">
+                <div class="">
+                    <h4 class="font-base-img f7 f7-01"></h4>
+                    <h4 class="font-base-img f7 f7-02"></h4>
+                    <h4 class="font-base-img f7 f7-03"></h4>
+                    <h4 class="font-base-img f7 f7-04"></h4>
+                    <h4 class="font-base-img f7 f7-05"></h4>
+                    <h4 class="font-base-img f7 f7-06"></h4>
+                    <h4 class="font-base-img f7 f7-07"></h4>
+                </div>
+
+                <div class="font-base-img  job-req job-req-img"></div>
+
+
+                <button class="btn light-button-bg  light-button-bg-img  main-img-other ">
+                    快来测测你能在全通习悦拿到多少年薪
+                    <i class="ib light-mover  light-mover-img main-img-other"></i>
+                </button>
             </div>
-
-            <div class="main-img ib job-req"></div>
-
-
-            <button class="btn light-button-bg main-img ">
-                快来测测你能在全通习悦拿到多少年薪
-                <i class="ib light-mover main-img"></i>
-            </button>
-        </div>
 
 
     </div>
 
+
+
     <!--答题-->
-    <div class="answerLayer  " id="answerLayer">
+    <div class="answerLayer  hide" id="answerLayer">
         <h3 class="answer-num ib"></h3>
 
         <div class="answer-title">

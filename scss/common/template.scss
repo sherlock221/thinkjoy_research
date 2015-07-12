@@ -30,6 +30,26 @@ ul,li{
   list-style: none;
 }
 
+
+.tr-ve-center{
+  position: absolute;
+  top: 50%;
+  @include transform(translateY(-50%));
+}
+
+.tr-hoz-center{
+  position: absolute;
+  top: 50%;
+  @include transform(translateX(-50%));
+}
+.tr-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include transform(translate(-50% , -50%));
+}
+
+
 .btn{
   margin: 0;
   border: 0;
@@ -38,6 +58,19 @@ ul,li{
   text-align: center;
   background-color: transparent;
   font-size: 14px;
+}
+
+
+.metro-bottom{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.team-info{
+  position: fixed;
+  right: 0;
+  top: 0;
+
 }
 
 

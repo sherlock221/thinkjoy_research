@@ -11,66 +11,15 @@
 
   }
 
- .f7{
-   width: rem(511);
- }
 
-
-  .f7-01{
-    background-position: rem(-507) 0;
-    height: rem(52);
-
-  }
-
-  .f7-02{
-    background-position: rem(-507) rem(-52);
-    height: rem(52);
-
-  }
-
-  .f7-03{
-    background-position: rem(-507) rem(-103);
-    height: rem(35);
-
-  }
-
-  .f7-04{
-    background-position: rem(-507) rem(-138);
-    height: rem(38);
-
-  }
-
-
-  .f7-05{
-    background-position: rem(-507) rem(-176);
-    height: rem(66);
-
-  }
-  .f7-06{
-    background-position: rem(-507) rem(-242);
-    height: rem(70);
-  }
-
-  .f7-07{
-    background-position: rem(-507) rem(-312);
-    height: rem(98);
-  }
 
   .job-req{
-    background-position: rem(-507) rem(-410);
-    width: rem(512);
-    height: rem(155);
-
     margin-top: rem(78);
     margin-bottom: rem(63);
   }
 
 
   .light-button-bg{
-    background-position: rem(-1107) 0;
-    width: rem(556);
-    height: rem(103);
-
     line-height: rem(103);
     text-align: center;
     color: white;
@@ -79,26 +28,11 @@
   }
 
   .light-mover{
-    background-position: rem(-1107) rem(-104);
-    width: rem(137);
-    height: rem(102);
-
     position: absolute;
     right: 0;
-    top :0;
+    top :1px;
   }
 
 
-
-  .team-info{
-    background-position: rem(-519) rem(-742);
-    width: rem(409);
-    height: rem(50);
-
-    position: fixed;
-    right: 0;
-    top: 0;
-
-  }
 
 }
