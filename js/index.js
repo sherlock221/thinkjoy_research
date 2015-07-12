@@ -34,6 +34,21 @@ var  Event = {
             },600);
         });
 
+
+        var svg = new Walkway({
+            selector: '#people-vivus',
+            duration: '2000'
+            // can pass in a function or a string like 'easeOutQuint'
+
+        });
+
+        svg.draw();
+
+        //svg 动画
+        //new Vivus('people-vivus', {type: 'oneByOne', duration: 200, file: 'resources/svg/baishi-01.svg'}, function(res){
+        //    console.log(res);
+        //});
+
     },
     data : function(){
         loadAnswerList();

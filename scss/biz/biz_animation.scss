@@ -1,24 +1,23 @@
 
 
-
+.meteor-ani-center{
+  @include animation(meteor-ani-bottom-268 4s linear 2s infinite both);
+}
 
 .meteor-ani-bottom{
   @include animation(meteor-ani-bottom-480 4s ease-in 0s infinite both);
 }
 
 
-@media only screen
-and (min-device-height: 569px){
-  .meteor-ani-bottom{
+//@media only screen
+//and (min-device-height: 569px){
+//  .meteor-ani-bottom{
+//
+//    @include animation(meteor-ani-bottom-640 4s ease-in 0s infinite both);
+//  }
+//}
 
-    @include animation(meteor-ani-bottom-640 4s ease-in 0s infinite both);
-  }
-}
 
-
-.meteor-ani-center{
-  @include animation(meteor-ani-bottom-268 4s linear 2s infinite both);
-}
 
 
 @include keyframes(meteor-ani-bottom-268){

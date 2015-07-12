@@ -15,14 +15,14 @@
   }
 
   .wrap-ring{
-    //@include animation(spin-inverse 5s linear  0s infinite both);
+    @include animation(spin-inverse 5s linear  0s infinite both);
     position: absolute;
     bottom: 1px;
     left: 0;
   }
 
   .wrap-ring-opacity{
-    //@include animation(spin 1s linear  0s infinite both);
+    @include animation(spin 1s linear  0s infinite both);
     position: absolute;
     bottom: 5px;
     left: 0px;

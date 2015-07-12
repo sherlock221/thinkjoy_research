@@ -102,34 +102,34 @@
   width: 197.5px;
   height: 33px; }
 
-.circle-img {
-  background-image: url("../resources/circle.png");
-  background-size: 1000px 775px; }
-
 .wrap-ring-img {
-  background-position: -627.5px -172px;
-  width: 302px;
-  height: 302px; }
+  background-image: url("../resources/big-circle-01.png");
+  background-size: 325px 325px;
+  width: 325px;
+  height: 325px; }
 
 .wrap-ring-opacity-img {
-  background-position: -627.5px -474px;
-  width: 301px;
-  height: 301px; }
+  background-image: url("../resources/big-circle-02.png");
+  background-size: 325px 325px;
+  width: 325px;
+  height: 325px; }
 
 .middle-ring-white-img {
-  background-position: -23.5px -474px;
-  width: 301px;
-  height: 301px; }
+  background-position: 0px -225px;
+  width: 289px;
+  height: 289px; }
 
 .middle-ring-red-img {
-  background-position: -325.5px -474px;
-  width: 301px;
-  height: 301px; }
+  background-position: -305px -225px;
+  width: 289px;
+  height: 289px; }
 
 .inner-ring-img {
-  background-position: -325.5px -172px;
-  width: 302px;
-  height: 302px; }
+  background-image: url("../resources/small-circle.png");
+  background-size: 518px 259px;
+  background-position: -259px 0px;
+  width: 259px;
+  height: 259px; }
 
 .main-img {
   background-image: url("../resources/main-img.png");
@@ -157,6 +157,18 @@
   background-position: -343.5px -123.5px;
   width: 92px;
   height: 50px; }
+
+.bs-red-cr-img {
+  background-image: url("../resources/small-circle.png");
+  background-size: 518px 259px;
+  background-position: 0px 0px;
+  width: 259px;
+  height: 259px; }
+
+.bs-sd {
+  background-position: 0px -341px;
+  width: 175px;
+  height: 204px; }
 
 .wg-head-img {
   background-position: 0px -341px;
@@ -234,19 +246,19 @@
   height: 89px; }
 
 .iphone-puzzle-img {
-  background-position: 0 -578.5px;
-  width: 235px;
-  height: 340.5px; }
+  background-position: 0px 0px;
+  width: 236px;
+  height: 341px; }
 
 .puzzle-img {
-  background-position: 0 -930px;
-  width: 137.5px;
-  height: 122px; }
+  background-position: -370px -107.5px;
+  width: 140px;
+  height: 125px; }
 
 .circle-point-img {
-  background-position: 0 -1104.5px;
-  width: 29.5px;
-  height: 29.5px; }
+  background-position: -550px 0;
+  width: 32.5px;
+  height: 32.5px; }
 
 html, body {
   width: 100%;
@@ -418,10 +430,20 @@ a {
   margin-left: -155px;
   margin-top: -155px; }
 .secondLayer .wrap-ring {
+  -webkit-animation: spin-inverse 5s linear 0s infinite both;
+  -ms-animation: spin-inverse 5s linear 0s infinite both;
+  -moz-animation: spin-inverse 5s linear 0s infinite both;
+  -o-animation: spin-inverse 5s linear 0s infinite both;
+  animation: spin-inverse 5s linear 0s infinite both;
   position: absolute;
   bottom: 1px;
   left: 0; }
 .secondLayer .wrap-ring-opacity {
+  -webkit-animation: spin 1s linear 0s infinite both;
+  -ms-animation: spin 1s linear 0s infinite both;
+  -moz-animation: spin 1s linear 0s infinite both;
+  -o-animation: spin 1s linear 0s infinite both;
+  animation: spin 1s linear 0s infinite both;
   position: absolute;
   bottom: 5px;
   left: 0px; }
@@ -448,10 +470,7 @@ a {
   bottom: -5%; }
 
 .thirdLayer .xinshou {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  margin-left: -112.5px; }
+  margin-top: 25px; }
 .thirdLayer .ip-puzzle {
   position: absolute;
   bottom: 0px;
@@ -476,11 +495,23 @@ a {
   right: 20px;
   top: 19px; }
 
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate3d(0, 0, 0, 0deg); }
-  100% {
-    -webkit-transform: rotate3d(0, 0, 0, 360deg); } }
+.fourLayer .bs-red-cr {
+  position: absolute;
+  top: 0;
+  left: 0; }
+.fourLayer .wg-tree {
+  position: absolute;
+  left: 0;
+  top: 110px; }
+.fourLayer .wg-xt {
+  position: absolute;
+  right: -59px;
+  top: 0; }
+.fourLayer .bs-point {
+  position: absolute;
+  top: 34px;
+  left: 12px; }
+
 .fiveLayer .sp-content {
   width: 320px;
   height: 307px;
@@ -599,26 +630,19 @@ a {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%); }
 
-.meteor-ani-bottom {
-  -webkit-animation: meteor-ani-bottom-480 4s ease-in 0s infinite both;
-  -ms-animation: meteor-ani-bottom-480 4s ease-in 0s infinite both;
-  -moz-animation: meteor-ani-bottom-480 4s ease-in 0s infinite both;
-  -o-animation: meteor-ani-bottom-480 4s ease-in 0s infinite both;
-  animation: meteor-ani-bottom-480 4s ease-in 0s infinite both; }
-
-@media only screen and (min-device-height: 569px) {
-  .meteor-ani-bottom {
-    -webkit-animation: meteor-ani-bottom-640 4s ease-in 0s infinite both;
-    -ms-animation: meteor-ani-bottom-640 4s ease-in 0s infinite both;
-    -moz-animation: meteor-ani-bottom-640 4s ease-in 0s infinite both;
-    -o-animation: meteor-ani-bottom-640 4s ease-in 0s infinite both;
-    animation: meteor-ani-bottom-640 4s ease-in 0s infinite both; } }
 .meteor-ani-center {
   -webkit-animation: meteor-ani-bottom-268 4s linear 2s infinite both;
   -ms-animation: meteor-ani-bottom-268 4s linear 2s infinite both;
   -moz-animation: meteor-ani-bottom-268 4s linear 2s infinite both;
   -o-animation: meteor-ani-bottom-268 4s linear 2s infinite both;
   animation: meteor-ani-bottom-268 4s linear 2s infinite both; }
+
+.meteor-ani-bottom {
+  -webkit-animation: meteor-ani-bottom-480 4s ease-in 0s infinite both;
+  -ms-animation: meteor-ani-bottom-480 4s ease-in 0s infinite both;
+  -moz-animation: meteor-ani-bottom-480 4s ease-in 0s infinite both;
+  -o-animation: meteor-ani-bottom-480 4s ease-in 0s infinite both;
+  animation: meteor-ani-bottom-480 4s ease-in 0s infinite both; }
 
 @-webkit-keyframes meteor-ani-bottom-268 {
   0% {

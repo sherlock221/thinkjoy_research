@@ -30,8 +30,6 @@
 
 
 
-
-
 //流星
 .metro-img{
   background-position: rem(-490) rem(-465);
@@ -51,6 +49,23 @@
   background-position: rem(-687) rem(-247);
   width: rem(184);
   height: rem(100);
+}
+
+
+
+//拜师学艺
+.bs-red-cr-img{
+  background-image: url("../resources/small-circle.png");
+  background-size: rem(1036) rem(518);
+  background-position: rem(0) rem(-0);
+  width: rem(518);
+  height: rem(518);
+}
+
+.bs-sd{
+  background-position: rem(0) rem(-682);
+  width: rem(350);
+  height: rem(408);
 }
 
 
@@ -146,24 +161,24 @@
 
   //手机
 .iphone-puzzle-img{
-  background-position: 0  rem(-1157);
-  width: rem(470);
-  height: rem(681);
+  background-position: rem(0)  rem(0);
+  width: rem(472);
+  height: rem(682);
 }
 
 //pintu
 .puzzle-img{
-  background-position: 0  rem(-1860);
-  width: rem(275);
-  height: rem(244);
+  background-position: rem(-740)  rem(-215);
+  width: rem(280);
+  height: rem(250);
 }
 
 
 //红点
 .circle-point-img{
-    background-position:  0 rem(-2209);
-    width: rem(59);
-    height: rem(59);
+    background-position:  rem(-1100) 0 ;
+    width: rem(65);
+    height: rem(65);
 }
 
 
