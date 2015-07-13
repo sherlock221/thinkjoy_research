@@ -1,4 +1,10 @@
 
+@import "ani/index.ani";
+@import "ani/second.ani";
+
+
+
+
 
 .meteor-ani-center{
   @include animation(meteor-ani-bottom-268 4s linear 2s infinite both);
@@ -7,7 +13,6 @@
 .meteor-ani-bottom{
   @include animation(meteor-ani-bottom-480 4s ease-in 0s infinite both);
 }
-
 
 //@media only screen
 //and (min-device-height: 569px){
@@ -18,8 +23,7 @@
 //}
 
 
-
-
+//流星飞射
 @include keyframes(meteor-ani-bottom-268){
   0%{
     @include transform(translate3d(-170px, 268px , 0));
@@ -29,9 +33,6 @@
   }
 
 }
-
-
-
 @include keyframes(meteor-ani-bottom-480){
   0%{
     @include transform(translate3d(-170px, 480px , 0));
@@ -41,9 +42,6 @@
   }
 
 }
-
-
-
 @include keyframes(meteor-ani-bottom-640){
   0%{
     @include transform(translate3d(-170px, 640px , 0));
@@ -53,7 +51,19 @@
   }
 
 }
+//流星飞射
 
+
+
+//3d旋转
+@include keyframes(spin3d){
+  0%{
+    @include transform(rotate3d(1,0,1,0deg));
+  }
+  100%{
+    @include transform(rotate3d(1,0,1,360deg));
+  }
+}
 
 
 

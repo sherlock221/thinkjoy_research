@@ -43,10 +43,10 @@
 <body>
 
 
-<div id="container" class="container  bg-default" >
 
+<div id="container" class="container  bg-default" >
     <!-- 第一个图片 -->
-    <div  class="indexLayer  hide">
+    <div  class="indexLayer hide " id="indexLayer">
         <ul id="arrow-list" class="arrow-list"  data-friction-x="0.1"
             data-friction-y="0.1"
             data-scalar-x="25"
@@ -108,57 +108,74 @@
 
         <!-- 文字大小 -->
         <div class="font-center">
-            <h5 class="ib font-base"></h5>
+            <h5   id="font-education" class="ib font-base-img font-education"></h5>
         </div>
 
         <!-- 菊花 -->
-        <div class="chrysanthemum-front">
-            <i class="ib chrysanthemum-front-img "></i>
+        <div class="chrysanthemum-front ">
+            <i class="ib  chrysanthemum-front-img  main-img-other"></i>
         </div>
 
         <!-- 菊花 -->
         <div class="chrysanthemum">
-            <i class="ib chrysanthemum-img"></i>
+            <i class="ib chrysanthemum-img main-img-other"></i>
         </div>
 
         <!-- 立方体 -->
         <div class="rect">
-            <i class="ib rect-img"></i>
+            <i class="ib rect-img main-img-other" ></i>
         </div>
 
         <!-- 圆环 -->
-        <div class="circle-layer">
-            <div class="circle-blue-img  circle-blue  ib">
-                <div class="circle-red-img circle-red ib"></div>
+        <div  class="circle-layer">
+            <div class="f1-circle-white-img main-img-other  circle-white  ib">
+            </div>
+            <div class="f1-circle-red-img main-img-other circle-red ib"></div>
+
+        </div>
+
+
+        <!-- 指纹 -->
+
+        <div class="fingerprint hide"  id="fingerprint">
+            <div class="fingerprint-flash" >
+
+                <div class="fingerprint-heart">
+                    <i class="ib  fingerprint-img  main-img-other"></i>
+                </div>
+
             </div>
         </div>
 
     </div>
 
+    <!--style="-webkit-transform: scale(0.95);transform: scale(0.95);"-->
+
     <!-- 第二个 -->
-    <div class="secondLayer  hide">
-        <!-- 大圆环 -->
-        <div class="big-ring ib">
+    <div id="secondLayer hide" class="secondLayer  ">
 
-            <div class=" wrap-ring wrap-ring-img">
+        <div class="ib tr-center" >
+            <!-- 大圆环 -->
+            <div class="big-ring-out ib " id="big-ring-out" >
+                <section class="big-ring">
+                    <div class=" wrap-ring wrap-ring-img">  </div>
+                    <div class=" wrap-ring-opacity wrap-ring-opacity-img"></div>
+                    <div class="main-img-other middle-ring-white middle-ring-white-img"></div>
 
-            </div>
+                    <div class="main-img-other middle-ring-red middle-ring-red-img"></div>
 
-            <div class=" wrap-ring-opacity wrap-ring-opacity-img">
+                    <div class=" inner-ring inner-ring-img"></div>
 
-            </div>
+                    <!--文字 -->
+                    <div class="font-people-layer">
+                        <div class="big-ring-out">
+                            <h5 class="ib font-people font-base-img "></h5>
+                        </div>
+                    </div>
 
-            <div class="main-img-other middle-ring-white middle-ring-white-img"></div>
+                </section>
 
-            <div class="main-img-other middle-ring-red middle-ring-red-img"></div>
-
-            <div class=" inner-ring inner-ring-img"></div>
-
-            <!--文字 -->
-            <div>
-
-                <h5 class="ib quantong-font main-img quantong"></h5>
-            </div>
+              </div>
         </div>
 
         <!-- 流星 -->
@@ -170,16 +187,12 @@
     </div>
 
     <!-- 新手村 -->
-    <div class="thirdLayer  hide">
-
+    <div id="thirdLayer "  class="thirdLayer  hide">
         <div class="text-center" >
             <h5 class="font-base-img font-xinshou xinshou  ib"></h5>
         </div>
-
         <div class="puzzle-layer">
             <div class="main-img iphone-puzzle-img ip-puzzle ib">
-
-
             </div>
             <i class="puzzle-img puzzle ib main-img"></i>
 
@@ -191,7 +204,7 @@
     </div>
 
     <!-- 拜师学艺 -->
-    <div class="fourLayer  ">
+    <div class="fourLayer hide ">
 
         <div class="tr-center">
             <h5 class="font-base-img font-baishi  ib "></h5>
@@ -372,13 +385,9 @@
 
         </div>
 
-
     </div>
 
-
 </div>
-
-
 
 
 

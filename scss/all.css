@@ -143,6 +143,36 @@
   background-image: url("../resources/head.png");
   background-size: 512px 89px; }
 
+.chrysanthemum-front-img {
+  background-position: -117px 0;
+  width: 85px;
+  height: 85px; }
+
+.chrysanthemum-img {
+  background-position: 0 0;
+  width: 117px;
+  height: 117px; }
+
+.rect-img {
+  background-position: -342px 0;
+  width: 93px;
+  height: 85px; }
+
+.fingerprint-img {
+  background-position: -472px -117px;
+  width: 62px;
+  height: 85px; }
+
+.f1-circle-red-img {
+  background-position: -272px 0;
+  width: 70px;
+  height: 70px; }
+
+.f1-circle-white-img {
+  background-position: -202px 0;
+  width: 70px;
+  height: 70px; }
+
 .metro-img {
   background-position: -245px -232.5px;
   width: 170px;
@@ -413,13 +443,18 @@ a {
 
 .circle-red {
   position: absolute;
-  top: 7px;
-  left: 9px; }
+  top: 1px;
+  left: -1px; }
 
 .rect-img {
   position: absolute;
   right: -40px;
   top: 20px; }
+
+.fingerprint {
+  position: absolute;
+  bottom: 30px;
+  right: 47px; }
 
 .secondLayer .big-ring {
   position: absolute;
@@ -430,35 +465,29 @@ a {
   margin-left: -155px;
   margin-top: -155px; }
 .secondLayer .wrap-ring {
-  -webkit-animation: spin-inverse 5s linear 0s infinite both;
-  -ms-animation: spin-inverse 5s linear 0s infinite both;
-  -moz-animation: spin-inverse 5s linear 0s infinite both;
-  -o-animation: spin-inverse 5s linear 0s infinite both;
-  animation: spin-inverse 5s linear 0s infinite both;
   position: absolute;
   bottom: 1px;
   left: 0; }
 .secondLayer .wrap-ring-opacity {
-  -webkit-animation: spin 1s linear 0s infinite both;
-  -ms-animation: spin 1s linear 0s infinite both;
-  -moz-animation: spin 1s linear 0s infinite both;
-  -o-animation: spin 1s linear 0s infinite both;
-  animation: spin 1s linear 0s infinite both;
   position: absolute;
   bottom: 5px;
   left: 0px; }
 .secondLayer .middle-ring-white {
   position: absolute;
-  left: 0px;
-  bottom: 7px; }
+  left: 16px;
+  bottom: 31px; }
 .secondLayer .middle-ring-red {
   position: absolute;
-  left: 1px;
-  bottom: 7px; }
+  left: 17px;
+  bottom: 30px; }
 .secondLayer .inner-ring {
   position: absolute;
-  left: 1px;
-  bottom: 7px; }
+  left: 31px;
+  bottom: 46px; }
+.secondLayer .font-people-layer {
+  position: absolute;
+  left: 51px;
+  top: 70px; }
 .secondLayer .quantong {
   left: 43px;
   top: 83px;
@@ -630,6 +659,262 @@ a {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%); }
 
+.indexLayer .chrysanthemum-front {
+  -webkit-animation: spin-inverse 4s linear 0s infinite both;
+  -ms-animation: spin-inverse 4s linear 0s infinite both;
+  -moz-animation: spin-inverse 4s linear 0s infinite both;
+  -o-animation: spin-inverse 4s linear 0s infinite both;
+  animation: spin-inverse 4s linear 0s infinite both; }
+.indexLayer .circle-red {
+  -webkit-animation: spin-inverse 2s linear 0s infinite both;
+  -ms-animation: spin-inverse 2s linear 0s infinite both;
+  -moz-animation: spin-inverse 2s linear 0s infinite both;
+  -o-animation: spin-inverse 2s linear 0s infinite both;
+  animation: spin-inverse 2s linear 0s infinite both; }
+.indexLayer .circle-white {
+  -webkit-animation: spin 2s linear 0s infinite both;
+  -ms-animation: spin 2s linear 0s infinite both;
+  -moz-animation: spin 2s linear 0s infinite both;
+  -o-animation: spin 2s linear 0s infinite both;
+  animation: spin 2s linear 0s infinite both; }
+.indexLayer .rect-img {
+  -webkit-animation: spin 10s linear 0s infinite both;
+  -ms-animation: spin 10s linear 0s infinite both;
+  -moz-animation: spin 10s linear 0s infinite both;
+  -o-animation: spin 10s linear 0s infinite both;
+  animation: spin 10s linear 0s infinite both; }
+.indexLayer .font-education {
+  -webkit-animation: fadeIn 2s ease 0s 1 both;
+  -ms-animation: fadeIn 2s ease 0s 1 both;
+  -moz-animation: fadeIn 2s ease 0s 1 both;
+  -o-animation: fadeIn 2s ease 0s 1 both;
+  animation: fadeIn 2s ease 0s 1 both; }
+.indexLayer .fingerprint-flash {
+  -webkit-animation: flash-high 2s ease 0s infinite both;
+  -ms-animation: flash-high 2s ease 0s infinite both;
+  -moz-animation: flash-high 2s ease 0s infinite both;
+  -o-animation: flash-high 2s ease 0s infinite both;
+  animation: flash-high 2s ease 0s infinite both; }
+.indexLayer .fingerprint-heart {
+  -webkit-animation: pulse 1s linear 0s infinite both;
+  -ms-animation: pulse 1s linear 0s infinite both;
+  -moz-animation: pulse 1s linear 0s infinite both;
+  -o-animation: pulse 1s linear 0s infinite both;
+  animation: pulse 1s linear 0s infinite both; }
+.indexLayer.out .chrysanthemum-front {
+  -webkit-animation: zoomOut 0.4s linear 0s 1 both;
+  -ms-animation: zoomOut 0.4s linear 0s 1 both;
+  -moz-animation: zoomOut 0.4s linear 0s 1 both;
+  -o-animation: zoomOut 0.4s linear 0s 1 both;
+  animation: zoomOut 0.4s linear 0s 1 both; }
+.indexLayer.out .chrysanthemum {
+  -webkit-animation: zoomOut 0.4s linear 0s 1 both;
+  -ms-animation: zoomOut 0.4s linear 0s 1 both;
+  -moz-animation: zoomOut 0.4s linear 0s 1 both;
+  -o-animation: zoomOut 0.4s linear 0s 1 both;
+  animation: zoomOut 0.4s linear 0s 1 both; }
+.indexLayer.out .circle-red {
+  -webkit-animation: zoomOut 0.4s linear 0s 1 both;
+  -ms-animation: zoomOut 0.4s linear 0s 1 both;
+  -moz-animation: zoomOut 0.4s linear 0s 1 both;
+  -o-animation: zoomOut 0.4s linear 0s 1 both;
+  animation: zoomOut 0.4s linear 0s 1 both; }
+.indexLayer.out .circle-white {
+  -webkit-animation: zoomOut 0.4s linear 0s 1 both;
+  -ms-animation: zoomOut 0.4s linear 0s 1 both;
+  -moz-animation: zoomOut 0.4s linear 0s 1 both;
+  -o-animation: zoomOut 0.4s linear 0s 1 both;
+  animation: zoomOut 0.4s linear 0s 1 both; }
+.indexLayer.out .rect-img {
+  -webkit-animation: zoomOut 0.4s linear 0s 1 both;
+  -ms-animation: zoomOut 0.4s linear 0s 1 both;
+  -moz-animation: zoomOut 0.4s linear 0s 1 both;
+  -o-animation: zoomOut 0.4s linear 0s 1 both;
+  animation: zoomOut 0.4s linear 0s 1 both; }
+.indexLayer.out .font-education {
+  -webkit-animation: fadeOut 0.5s linear 0s 1 both;
+  -ms-animation: fadeOut 0.5s linear 0s 1 both;
+  -moz-animation: fadeOut 0.5s linear 0s 1 both;
+  -o-animation: fadeOut 0.5s linear 0s 1 both;
+  animation: fadeOut 0.5s linear 0s 1 both; }
+.indexLayer.out .fingerprint {
+  -webkit-animation: zoomOut 0.4s linear 0s 1 both;
+  -ms-animation: zoomOut 0.4s linear 0s 1 both;
+  -moz-animation: zoomOut 0.4s linear 0s 1 both;
+  -o-animation: zoomOut 0.4s linear 0s 1 both;
+  animation: zoomOut 0.4s linear 0s 1 both; }
+.indexLayer.out .l1_img, .indexLayer.out .l2_img, .indexLayer.out .l3_img, .indexLayer.out .l4_img, .indexLayer.out .l5_img, .indexLayer.out .l6_img {
+  -webkit-animation: fadeOutLeft 0.4s ease 0s 1 both;
+  -ms-animation: fadeOutLeft 0.4s ease 0s 1 both;
+  -moz-animation: fadeOutLeft 0.4s ease 0s 1 both;
+  -o-animation: fadeOutLeft 0.4s ease 0s 1 both;
+  animation: fadeOutLeft 0.4s ease 0s 1 both; }
+.indexLayer.out .r1_img, .indexLayer.out .r2_img, .indexLayer.out .r3_img, .indexLayer.out .r4_img, .indexLayer.out .r5_img {
+  -webkit-animation: fadeOutRight 0.4s ease 0s 1 both;
+  -ms-animation: fadeOutRight 0.4s ease 0s 1 both;
+  -moz-animation: fadeOutRight 0.4s ease 0s 1 both;
+  -o-animation: fadeOutRight 0.4s ease 0s 1 both;
+  animation: fadeOutRight 0.4s ease 0s 1 both; }
+
+.secondLayer .wrap-ring {
+  -webkit-animation: spin-inverse 5s linear 0s infinite both;
+  -ms-animation: spin-inverse 5s linear 0s infinite both;
+  -moz-animation: spin-inverse 5s linear 0s infinite both;
+  -o-animation: spin-inverse 5s linear 0s infinite both;
+  animation: spin-inverse 5s linear 0s infinite both; }
+.secondLayer .wrap-ring-opacity {
+  -webkit-animation: spin 1s linear 0s infinite both;
+  -ms-animation: spin 1s linear 0s infinite both;
+  -moz-animation: spin 1s linear 0s infinite both;
+  -o-animation: spin 1s linear 0s infinite both;
+  animation: spin 1s linear 0s infinite both; }
+.secondLayer .middle-ring-white {
+  -webkit-animation: spin 2s linear 0s infinite both;
+  -ms-animation: spin 2s linear 0s infinite both;
+  -moz-animation: spin 2s linear 0s infinite both;
+  -o-animation: spin 2s linear 0s infinite both;
+  animation: spin 2s linear 0s infinite both; }
+.secondLayer .middle-ring-red {
+  -webkit-animation: spin-inverse 4s linear 0s infinite both;
+  -ms-animation: spin-inverse 4s linear 0s infinite both;
+  -moz-animation: spin-inverse 4s linear 0s infinite both;
+  -o-animation: spin-inverse 4s linear 0s infinite both;
+  animation: spin-inverse 4s linear 0s infinite both; }
+.secondLayer .inner-ring {
+  -webkit-animation: spin-inverse 10s linear 0s infinite both;
+  -ms-animation: spin-inverse 10s linear 0s infinite both;
+  -moz-animation: spin-inverse 10s linear 0s infinite both;
+  -o-animation: spin-inverse 10s linear 0s infinite both;
+  animation: spin-inverse 10s linear 0s infinite both; }
+.secondLayer .big-ring {
+  -webkit-animation: zr3dIn 1.5s ease 0s 1 both;
+  -ms-animation: zr3dIn 1.5s ease 0s 1 both;
+  -moz-animation: zr3dIn 1.5s ease 0s 1 both;
+  -o-animation: zr3dIn 1.5s ease 0s 1 both;
+  animation: zr3dIn 1.5s ease 0s 1 both; }
+.secondLayer .font-people-layer {
+  -webkit-animation: zoomIn 0.5s ease 1s 1 both;
+  -ms-animation: zoomIn 0.5s ease 1s 1 both;
+  -moz-animation: zoomIn 0.5s ease 1s 1 both;
+  -o-animation: zoomIn 0.5s ease 1s 1 both;
+  animation: zoomIn 0.5s ease 1s 1 both; }
+.secondLayer .big-ring-out {
+  -webkit-animation: zoomOut 1.5s ease 4s 1 both;
+  -ms-animation: zoomOut 1.5s ease 4s 1 both;
+  -moz-animation: zoomOut 1.5s ease 4s 1 both;
+  -o-animation: zoomOut 1.5s ease 4s 1 both;
+  animation: zoomOut 1.5s ease 4s 1 both; }
+
+@-webkit-keyframes zr3dIn {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 1, 180deg) scale(0); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 2, 0deg) scale(1); } }
+@-moz-keyframes zr3dIn {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 1, 180deg) scale(0); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 2, 0deg) scale(1); } }
+@-o-keyframes zr3dIn {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 1, 180deg) scale(0); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 2, 0deg) scale(1); } }
+@-ms-keyframes zr3dIn {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 1, 180deg) scale(0); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 2, 0deg) scale(1); } }
+@keyframes zr3dIn {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 1, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 1, 180deg) scale(0); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 2, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 2, 0deg) scale(1); } }
+@-webkit-keyframes zr3dOut {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 1, 0deg) scale(1); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 2, 180deg) scale(0); } }
+@-moz-keyframes zr3dOut {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 1, 0deg) scale(1); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 2, 180deg) scale(0); } }
+@-o-keyframes zr3dOut {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 1, 0deg) scale(1); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 2, 180deg) scale(0); } }
+@-ms-keyframes zr3dOut {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 1, 0deg) scale(1); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 2, 180deg) scale(0); } }
+@keyframes zr3dOut {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -moz-transform: rotate3d(1, 0, 1, 0deg) scale(1);
+    -ms-transform: rotate3d(1, 0, 1, 0deg) scale(1); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -moz-transform: rotate3d(1, 0, 2, 180deg) scale(0);
+    -ms-transform: rotate3d(1, 0, 2, 180deg) scale(0); } }
 .meteor-ani-center {
   -webkit-animation: meteor-ani-bottom-268 4s linear 2s infinite both;
   -ms-animation: meteor-ani-bottom-268 4s linear 2s infinite both;
@@ -809,5 +1094,60 @@ a {
     transform: translate3d(1177px, -108px, 0);
     -moz-transform: translate3d(1177px, -108px, 0);
     -ms-transform: translate3d(1177px, -108px, 0); } }
+@-webkit-keyframes spin3d {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg);
+    transform: rotate3d(1, 0, 1, 0deg);
+    -moz-transform: rotate3d(1, 0, 1, 0deg);
+    -ms-transform: rotate3d(1, 0, 1, 0deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 1, 360deg);
+    transform: rotate3d(1, 0, 1, 360deg);
+    -moz-transform: rotate3d(1, 0, 1, 360deg);
+    -ms-transform: rotate3d(1, 0, 1, 360deg); } }
+@-moz-keyframes spin3d {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg);
+    transform: rotate3d(1, 0, 1, 0deg);
+    -moz-transform: rotate3d(1, 0, 1, 0deg);
+    -ms-transform: rotate3d(1, 0, 1, 0deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 1, 360deg);
+    transform: rotate3d(1, 0, 1, 360deg);
+    -moz-transform: rotate3d(1, 0, 1, 360deg);
+    -ms-transform: rotate3d(1, 0, 1, 360deg); } }
+@-o-keyframes spin3d {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg);
+    transform: rotate3d(1, 0, 1, 0deg);
+    -moz-transform: rotate3d(1, 0, 1, 0deg);
+    -ms-transform: rotate3d(1, 0, 1, 0deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 1, 360deg);
+    transform: rotate3d(1, 0, 1, 360deg);
+    -moz-transform: rotate3d(1, 0, 1, 360deg);
+    -ms-transform: rotate3d(1, 0, 1, 360deg); } }
+@-ms-keyframes spin3d {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg);
+    transform: rotate3d(1, 0, 1, 0deg);
+    -moz-transform: rotate3d(1, 0, 1, 0deg);
+    -ms-transform: rotate3d(1, 0, 1, 0deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 1, 360deg);
+    transform: rotate3d(1, 0, 1, 360deg);
+    -moz-transform: rotate3d(1, 0, 1, 360deg);
+    -ms-transform: rotate3d(1, 0, 1, 360deg); } }
+@keyframes spin3d {
+  0% {
+    -webkit-transform: rotate3d(1, 0, 1, 0deg);
+    transform: rotate3d(1, 0, 1, 0deg);
+    -moz-transform: rotate3d(1, 0, 1, 0deg);
+    -ms-transform: rotate3d(1, 0, 1, 0deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 0, 1, 360deg);
+    transform: rotate3d(1, 0, 1, 360deg);
+    -moz-transform: rotate3d(1, 0, 1, 360deg);
+    -ms-transform: rotate3d(1, 0, 1, 360deg); } }
 
 /*# sourceMappingURL=all.css.map */

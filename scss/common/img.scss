@@ -28,6 +28,47 @@
   background-size: rem(1024) rem(178);
 }
 
+//菊花正面
+.chrysanthemum-front-img{
+  background-position: rem(-234) 0;
+  width: rem(170);
+  height: rem(170);
+}
+
+//菊花
+.chrysanthemum-img{
+  background-position: 0 0;
+  width: rem(234);
+  height: rem(234);
+}
+
+//立方体
+.rect-img{
+  background-position: rem(-684) 0;
+  width: rem(186);
+  height: rem(170);
+}
+
+
+.fingerprint-img{
+  background-position: rem(-944) rem(-234);
+  width: rem(124);
+  height: rem(170);
+}
+
+//小环
+.f1-circle-red-img{
+
+  background-position: rem(-544) 0;
+  width: rem(140);
+  height: rem(140);
+}
+
+.f1-circle-white-img{
+  background-position: rem(-404) 0;
+  width: rem(140);
+  height: rem(140);
+}
 
 
 //流星
